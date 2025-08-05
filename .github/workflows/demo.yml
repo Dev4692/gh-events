@@ -39,6 +39,6 @@ jobs:
         with:
           name: website-build
       - name: Output build
-        run: ls -la dist
+        run: ls
       - name: Deploy
         run: echo "Deploying..."
